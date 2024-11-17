@@ -106,6 +106,8 @@ public struct ClientConfiguration {
                 return "tvOS"
             #elseif os(watchOS)
                 return "watchOS"
+            #elseif os(watchOS)
+                return "visionOS"
             #elseif os(Linux)
                 return "Linux"
             #else
